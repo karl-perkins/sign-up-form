@@ -7,6 +7,69 @@
 		<title>Sign-up Form</title>
 	</head>
 	<body>
-		<h1>Sign-up Form</h1>
+		<div class="image-sidebar">
+			<div class="image-sidebar-logo">
+				<img src="./assets/images/odin-lined.png" alt="The Odin Project Logo" />
+				ODIN
+			</div>
+			<div class="image-sidebar-credit">
+				Photo by
+				<a
+					href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+					>Halie West</a
+				>
+				on
+				<a
+					href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+					>Unsplash</a
+				>
+			</div>
+		</div>
+		<main>
+			<div class="service-intro">
+				<p>
+					This is not a real online service! you know you need something like
+					this in your life to help you realise your dreams.
+				</p>
+				<p>You know you want to.</p>
+			</div>
+			<form class="sign-up-form" action="" method="get">
+				<div class="form-wrapper">
+					<div class="form-header">Let's do this!</div>
+					<div class="form-input">
+						<label for="first-name">First Name</label>
+						<input type="text" id="first-name" name="first-name" required />
+					</div>
+					<div class="form-input">
+						<label for="last-name">Last Name</label>
+						<input type="text" id="last-name" name="last-name" required />
+					</div>
+					<div class="form-input">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required />
+					</div>
+					<div class="form-input">
+						<label for="phone-number">Phone Number</label>
+						<input type="tel" id="phone-number" name="phone-number" />
+					</div>
+					<div class="form-input">
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" required />
+					</div>
+					<div class="form-input">
+						<label for="password-confirm">Confirm Password</label>
+						<input
+							type="password"
+							id="password-confirm"
+							name="password-confirm"
+							required />
+					</div>
+				</div>
+				<button type="submit">Create Account</button>
+				<div class="log-in">
+					Already have an account? <a href=".">Log in</a>
+				</div>
+			</form>
+		</main>
 	</body>
 </html>
