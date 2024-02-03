@@ -102,11 +102,11 @@ main {
 .form-input input[type='password'] {
 	padding: 0.5em;
 	border: 1px solid #E5E7EB;
+	border-radius: 3px;
 }
 
 .form-input input:focus {
 	outline: 1px solid blue;
-	border-radius: 3px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
