@@ -104,6 +104,12 @@ main {
 	border: 1px solid #E5E7EB;
 }
 
+.form-input input:focus {
+	outline: 1px solid blue;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
 button {
 	border: none;
 	border-radius: 8px;
