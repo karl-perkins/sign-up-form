@@ -59,7 +59,7 @@ main {
 }
 
 .service-intro {
-	width: 90%;
+	width: 55ch;
 	margin-top: 6rem;
 	padding: 2rem;
 	font-size: 1.25rem;
@@ -78,7 +78,7 @@ main {
 }
 
 .form-input-grid {
-	width: 80%;
+	width: 60ch;
 	margin-top: 1rem;
 	display: grid;
 	grid-template-columns: repeat(2, auto);
