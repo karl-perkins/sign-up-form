@@ -110,6 +110,16 @@ main {
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
+.error {
+	color: red;
+	outline: 1px solid red;
+}
+
+#password-error-message {
+	font-size: 0.6em;
+	color: red;
+}
+
 button {
 	border: none;
 	border-radius: 8px;
