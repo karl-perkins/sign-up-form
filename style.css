@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
 	font-family: 'Norse Bold';
 	src: url('./assets/fonts/Norse-Bold.otf') format('opentype');
@@ -48,4 +50,70 @@ body {
 .image-sidebar-credit,
 .image-sidebar-credit a {
 	color: #ffffff;
+}
+
+main {
+	width: 60%;
+	background-color: #f9fafb;
+	font-family: 'Roboto', sans-serif;
+}
+
+.service-intro {
+	width: 90%;
+	margin-top: 6rem;
+	padding: 2rem;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+
+.sign-up-form {
+	padding: 1rem 2rem;
+	background-color: #ffffff;
+}
+
+.form-header {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.form-input-grid {
+	width: 80%;
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	column-gap: 4rem;
+	row-gap: 1rem;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-input label {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+
+.form-input input[type='text'],
+.form-input input[type='email'],
+.form-input input[type='tel'],
+.form-input input[type='password'] {
+	padding: 0.5em;
+	border: 1px solid #E5E7EB;
+}
+
+button {
+	border: none;
+	border-radius: 8px;
+	margin-top: 2rem;
+	padding: 1em 3em;
+	color: white;
+	background-color: #596D48;
+	cursor: pointer;
+}
+
+.log-in {
+	margin-top: 1.5rem;
 }
